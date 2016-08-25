@@ -3,10 +3,10 @@ body{
 }
 .carousel{
 	margin-bottom: 30px;
+	width: 90%;
+	margin: 0 auto;
 }
-
-#content {
-	font-size: 1.2em;
+.content {
 	width: 90%;
 	margin: 0 auto;
 	height: 200px;
@@ -32,7 +32,12 @@ body{
 .list-unstyled > li > a {
 	color: inherit;
 }
+.footrow{
+	margin-left: 0px!important;
+}
 .footer{
+  	width: 100%;
+	min-height: 160px;
 	margin-top: 30px;
 	padding-top: 15px;
 	padding-left: 70px;
@@ -54,7 +59,14 @@ body{
 	text-transform: uppercase;
 }
 @media (min-width: 768px) {
-  .navbar{
+  /*.footer {
+  	position: absolute;
+  	bottom: -600px;
+  }*/
+  .content {
+	font-size: 1.1em;
+  }
+  .navbar {
   	margin-bottom: 0px!important;
   }
   .navbar-nav {
@@ -72,7 +84,6 @@ body{
   .navbar-header {
   	padding-left: 4em;
   }
-
 }
 .tab1 {
 	padding-left: 6em;
@@ -94,4 +105,11 @@ body{
 }
 .no-left-float{
 	clear: left;
+}
+.container-fluid{
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+}
+.contentrow > h3 {
+	padding-left: 3em;
 }
