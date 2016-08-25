@@ -1,5 +1,5 @@
 body{
-	font-family: "Georgia",serif;
+	font-family: 'Lato', sans-serif;
 }
 .carousel{
 	margin-bottom: 30px;
@@ -29,19 +29,16 @@ body{
 .offerimages > img {
 	padding-top: 20px;
 }
-
-.footer{
-	height: 100px;
-	margin-top: 30px;
-	padding-top: 15px;
-	padding-left: 100px;
-	text-decoration: none;
-	color: #575752;
-	border-top: 1px solid #D3D3D3;
-
-}
 .list-unstyled > li > a {
 	color: inherit;
+}
+.footer{
+	margin-top: 30px;
+	padding-top: 15px;
+	padding-left: 70px;
+	text-decoration: none;
+	color: #d5d5d2;
+	background-image: url("/content/pictures/footer_pattern.jpg");
 }
 .footer > div > h4 {
 	margin-top: 0px;
@@ -49,7 +46,13 @@ body{
 .footer > div > h4 > a {
 	color: inherit;
 }
-
+.contact-container {
+	margin-top: 6em;
+	margin-bottom: 3em;
+}
+.navbar {
+	text-transform: uppercase;
+}
 @media (min-width: 768px) {
   .navbar{
   	margin-bottom: 0px!important;
@@ -67,7 +70,7 @@ body{
     float: right !important;
   }
   .navbar-header {
-  	padding-left: 3em;
+  	padding-left: 4em;
   }
 
 }
@@ -82,4 +85,13 @@ body{
 	margin-bottom: 4em!important;
 	width: 70%;
 	margin: 0 auto;
+}
+.width1 {
+	width: 300px!important;
+}
+.width2 {
+	width: 150px!important;
+}
+.no-left-float{
+	clear: left;
 }
